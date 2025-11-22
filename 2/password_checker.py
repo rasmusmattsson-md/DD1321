@@ -1,37 +1,37 @@
-
 import sys
 
 
-# # Läs in från fil
-def readFile(filnamn):
-    ord_lista = []
+# Read from file
+def readFile(filename):
+    word_list = []
     
-    with open(filnamn, 'r') as filen:
-        for rad in filen:
-            ord = rad.strip()
-            ord_lista.append(ord)
+    with open(filename, 'r') as file:
+        for line in file:
+            w = line.strip()
+            word_list.append(w)
     
-    return ord_lista
+    return word_list
 
-# Main-funktion
+
+# Main function
 def main():
-    # Kolla om användaren angett ett lösenord som argument
+    # Check if user provided a password as argument
     if len(sys.argv) > 1:
         word_to_test = sys.argv[1]
     else:
-        print("Kör programmet så här\n\tpython3", sys.argv[0], "<ord>")
+        print("Run the program like this:\n\tpython3", sys.argv[0], "<word>")
         sys.exit()
     
-    # Läs in alla dåliga lösenordsvarianter
-    dåliga_lösenord = readFile("all_passwords.txt")
+    # Read all weak password variants
+    weak_passwords = readFile("all_passwords.txt")
     
-    # Kolla om lösenordet finns i listan
-    if word_to_test in dåliga_lösenord:
-        print(f"❌ VARNING! '{word_to_test}' är INTE ett säkert lösenord!")
-        print("Detta lösenord är lätt att gissa. Välj ett annat.")
+    # Check if the password exists in the list
+    if word_to_test in weak_passwords:
+        print(f"❌ WARNING! '{word_to_test}' is NOT a secure password!")
+        print("This password is easy to guess. Choose another.")
     else:
-        print(f"✓ '{word_to_test}' verkar vara ett OK lösenord!")
-        print("Det finns inte i listan över vanliga lösenordsvarianter.")
+        print(f"✓ '{word_to_test}' seems to be an OK password!")
+        print("It does not appear in the list of common password variants.")
 
 
 main()

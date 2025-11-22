@@ -9,12 +9,12 @@ def full_personnummer(pnr):
     today = datetime.date.today()
     current_y = today.year % 100
     
-    # Bestäm sekel
+    # Determine century
     if y < current_y:
         century = 2000
     elif y > current_y:
         century = 1900
-    else:  # Samma år - kolla månad och dag
+    else:  # Same year – check month/day
         if m < today.month or (m == today.month and d <= today.day):
             century = 2000
         else:
@@ -32,7 +32,7 @@ def calc_age(pnr):
     today = datetime.date.today()
     current_y = today.year % 100
     
-    # Bestäm sekel
+    # Determine century
     if y < current_y:
         century = 2000
     elif y > current_y:
@@ -46,7 +46,7 @@ def calc_age(pnr):
     birth_year = century + y
     age = today.year - birth_year
     
-    # Justera om födelsedag inte passerat än i år
+    # Adjust if birthday hasn't occurred yet this year
     if today.month < m or (today.month == m and today.day < d):
         age -= 1
     
@@ -58,7 +58,7 @@ def merge(hok, dvf):
         full = full_personnummer(pnr)
         if full in dvf:
             info = dvf[full]
-            person.epost = info["epost"]
-            person.mobil = info["mobil"]
+            person.email = info["email"]
+            person.mobile = info["mobile"]
 
-        person.ålder = calc_age(pnr)
+        person.age = calc_age(pnr)

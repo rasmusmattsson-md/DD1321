@@ -1,15 +1,15 @@
 class Person:
-    def __init__(self, namn, personnummer):
-        self.namn = namn
-        self.personnummer = personnummer
-        self.husdjur = []
-        self.epost = ""
-        self.mobil = ""
-        self.ålder = 0
+    def __init__(self, name, person_id):
+        self.name = name
+        self.person_id = person_id
+        self.pets = []
+        self.email = ""
+        self.mobile = ""
+        self.age = 0
 
-    def add_pet(self, typ, namn, ras):
-        self.husdjur.append({
-            "typ": typ,
-            "namn": namn,
-            "ras": ras
+    def add_pet(self, pet_type, name, breed):
+        self.pets.append({
+            "type": pet_type,
+            "name": name,
+            "breed": breed
         })

@@ -1,6 +1,17 @@
-# Labb 3 – Katt- och hunddata
+# Labb 3 – Katt och hunddata
 
-## Programöversikt
+## Översikt
+
+### Kurs
+DD1321
+
+### Skapare
+Rasmus Mattsson
+
+### Datum
+2025-11-21
+
+## Filer
 
 ### main.py
 Kör hela flödet: läser Excel, slår ihop data och exporterar filtrerade listor.
@@ -17,12 +28,4 @@ Hanterar personnummerlogik, ålder och sammanslagning av data.
 ### writers.py
 Skriver ut filtrerade personer till nya Excel-filer med statistik.
 
-## Kurs
-DD1321
-
-## Skapare
-Rasmus Mattsson
-
-## Datum
-2025-11-21
 
