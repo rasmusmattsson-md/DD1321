@@ -8,10 +8,10 @@ def load_sheet(path):
 def read_dvf(sheet):
     personer = {}
     for row in sheet.iter_rows(min_row=2, values_only=True):
-        personnummer = row[2]
-        personer[personnummer] = {
+        pnr = str(row[2]).replace("-", "")  # Ta bort bindestreck, behåll som str
+        personer[pnr] = {
             "namn": row[1],
-            "personnummer": personnummer,
+            "personnummer": pnr,
             "epost": row[3],
             "mobil": row[4],
         }
@@ -25,10 +25,11 @@ def read_hok(sheet):
             continue
 
         namn, personnummer, typ, ras, djurnamn = row
+        pnr = str(personnummer).replace("-", "")  # Normalisera till 10 siffror
 
-        if personnummer not in personer:
-            personer[personnummer] = Person(namn, personnummer)
+        if pnr not in personer:
+            personer[pnr] = Person(namn, pnr)
 
-        personer[personnummer].add_pet(typ, djurnamn, ras)
+        personer[pnr].add_pet(typ, djurnamn, ras)
 
     return personer
