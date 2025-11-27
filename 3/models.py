@@ -13,3 +13,13 @@ class Person:
             "name": name,
             "breed": breed
         })
+
+    def __repr__(self):
+        return (
+            f"Person(name={self.name}, "
+            f"id={self.person_id}, "
+            f"age={self.age}, "
+            f"email={self.email}, "
+            f"mobile={self.mobile}, "
+            f"pets={self.pets})"
+        )

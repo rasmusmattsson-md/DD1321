@@ -46,7 +46,7 @@ def calc_age(pnr):
     birth_year = century + y
     age = today.year - birth_year
     
-    # Adjust if birthday hasn't occurred yet this year
+    # Change birthday hasn't occurred yet this year
     if today.month < m or (today.month == m and today.day < d):
         age -= 1
     

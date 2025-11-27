@@ -8,7 +8,7 @@ def main():
 
     merge(hok, dvf)
 
-    write_species(hok, "hund", "hundmänniskor.xlsx")
+    write_species(hok, "hund", "hundmänniskor.xlsx") 
     write_species(hok, "katt", "kattmänniskor.xlsx")
 
 if __name__ == "__main__":

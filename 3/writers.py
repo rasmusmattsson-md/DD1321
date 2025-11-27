@@ -8,7 +8,12 @@ def write_species(people, pet_type, filename):
     row = 2
 
     for person in people.values():
-        pets = [p for p in person.pets if p["type"] == pet_type]
+        print(person)
+        pets = []
+        for p in person.pets:
+            if p["type"] == pet_type:
+                pets.append(p)
+
         for i, pet in enumerate(pets):
             if i == 0:
                 ws.append([person.name, person.age, person.email,

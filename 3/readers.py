@@ -25,7 +25,7 @@ def read_hok(sheet):
             continue
 
         name, person_id, pet_type, breed, pet_name = row
-        pnr = str(person_id).replace("-", "")  # Normalize to 10 digits
+        pnr = str(person_id).replace("-", "")  # Normalize to 10 digits 
 
         if pnr not in people:
             people[pnr] = Person(name, pnr)
