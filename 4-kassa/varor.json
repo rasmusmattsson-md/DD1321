@@ -1,0 +1,26 @@
+[
+  {
+    "namn": "Harpa",
+    "artikelnr": "1001",
+    "pris": 50000.0,
+    "antal": 5
+  },
+  {
+    "namn": "Mjölk",
+    "artikelnr": "2001",
+    "pris": 15.5,
+    "antal": 20
+  },
+  {
+    "namn": "Bröd",
+    "artikelnr": "2002",
+    "pris": 25.0,
+    "antal": 15
+  },
+  {
+    "namn": "Kaka",
+    "artikelnr": "101",
+    "pris": 50.0,
+    "antal": 0
+  }
+]

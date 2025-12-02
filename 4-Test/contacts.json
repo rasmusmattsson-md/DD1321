@@ -1,0 +1,95 @@
+[
+  {
+    "förnamn": "Ras",
+    "efternamn": "Mat",
+    "telefonnummer": "1234",
+    "email": "ras@test.com",
+    "födelsedag": "0000x00x00",
+    "kontaktgrupp": "grupp1",
+    "anteckningar": {
+      "anteckning1": "test",
+      "anteckning2": "test2"
+    } 
+  },
+  {
+    "förnamn": "Person_2",
+    "efternamn": "Surname_2",
+    "telefonnummer": "1234567",
+    "email": "ras@tst.com",
+    "födelsedag": "2000-11-00",
+    "kontaktgrupp": "grupp1",
+    "anteckningar": []
+  },
+  {
+    "förnamn": "Person_3",
+    "efternamn": "Surname_3",
+    "telefonnummer": "1234567",
+    "email": "ras@tst.com",
+    "födelsedag": "2000-11-00",
+    "kontaktgrupp": "grupp1",
+    "anteckningar": []
+  },
+  {
+    "förnamn": "Person_4",
+    "efternamn": "Surname_4",
+    "telefonnummer": "1234567",
+    "email": "ras@tst.com",
+    "födelsedag": "2000-11-00",
+    "kontaktgrupp": "grupp1",
+    "anteckningar": []
+  },
+  {
+    "förnamn": "Person_5",
+    "efternamn": "Surname_5",
+    "telefonnummer": "1234567",
+    "email": "ras@tst.com",
+    "födelsedag": "2000-11-00",
+    "kontaktgrupp": "grupp1",
+    "anteckningar": []
+  },
+  {
+    "förnamn": "Person_6",
+    "efternamn": "Surname_6",
+    "telefonnummer": "1234567",
+    "email": "ras@tst.com",
+    "födelsedag": "2000-11-00",
+    "kontaktgrupp": "grupp1",
+    "anteckningar": []
+  },
+  {
+    "förnamn": "Person_7",
+    "efternamn": "Surname_7",
+    "telefonnummer": "1234567",
+    "email": "ras@tst.com",
+    "födelsedag": "2000-11-00",
+    "kontaktgrupp": "grupp1",
+    "anteckningar": []
+  },
+  {
+    "förnamn": "Person_8",
+    "efternamn": "Surname_8",
+    "telefonnummer": "1234567",
+    "email": "ras@tst.com",
+    "födelsedag": "2000-11-00",
+    "kontaktgrupp": "grupp1",
+    "anteckningar": []
+  },
+  {
+    "förnamn": "Person_9",
+    "efternamn": "Surname_9",
+    "telefonnummer": "1234567",
+    "email": "ras@tst.com",
+    "födelsedag": "2000-11-00",
+    "kontaktgrupp": "grupp1",
+    "anteckningar": []
+  },
+  {
+    "förnamn": "Rasmus",
+    "efternamn": "Mattsson",
+    "telefonnummer": "123456",
+    "email": "test@gmail.com",
+    "födelsedag": "2001-02-19",
+    "kontaktgrupp": "grupp2",
+    "anteckningar": []
+  }
+]

@@ -21,7 +21,7 @@ while player_points < 2 and computer_points < 2:
     print("\nChoose: rock, scissors, or paper")
     user_choice = input("Your choice: ")
     
-    # Computer chooses randomly
+    # Computer chooses (randomly)
     random_index = random.randint(0, 2)
     computer_choice = options_list[random_index]
     print(f"Computer chose: {computer_choice}")
@@ -39,7 +39,7 @@ while player_points < 2 and computer_points < 2:
     # Print score
     print(f"Score - You: {player_points}, Computer: {computer_points}")
 
-# Print final winner
+# Game winner
 print("\n--- GAME OVER ---")
 if player_points > computer_points:
     print("You won the game!")

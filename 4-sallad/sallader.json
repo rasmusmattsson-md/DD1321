@@ -1,0 +1,36 @@
+[
+ {
+    "namn": "Caesar",
+    "pris": 89.0,
+    "ingredienser": [
+      "sallad",
+      "kyckling",
+      "parmesan",
+      "krutonger",
+      "caesardressing"
+    ]
+  },
+  {
+    "namn": "Grekisk",
+    "pris": 79.0,
+    "ingredienser": [
+      "sallad",
+      "tomat",
+      "gurka",
+      "fetaost",
+      "oliver",
+      "rödlök"
+    ]
+  },
+  {
+    "namn": "Tonfisk",
+    "pris": 85.0,
+    "ingredienser": [
+      "sallad",
+      "tonfisk",
+      "tomat",
+      "majs",
+      "ägg"
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "namn": "sallad",
+    "pris": 10.0
+  },
+  {
+    "namn": "tomat",
+    "pris": 8.0
+  },
+  {
+    "namn": "gurka",
+    "pris": 7.0
+  },
+  {
+    "namn": "kyckling",
+    "pris": 20.0
+  },
+  {
+    "namn": "tonfisk",
+    "pris": 18.0
+  },
+  {
+    "namn": "fetaost",
+    "pris": 15.0
+  },
+  {
+    "namn": "parmesan",
+    "pris": 12.0
+  },
+  {
+    "namn": "ägg",
+    "pris": 10.0
+  },
+  {
+    "namn": "majs",
+    "pris": 6.0
+  },
+  {
+    "namn": "oliver",
+    "pris": 9.0
+  },
+  {
+    "namn": "rödlök",
+    "pris": 5.0
+  },
+  {
+    "namn": "krutonger",
+    "pris": 8.0
+  },
+  {
+    "namn": "caesardressing",
+    "pris": 10.0
+  }
+]

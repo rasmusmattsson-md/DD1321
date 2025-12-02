@@ -20,7 +20,6 @@ def capitalLetter(letter):
 # Task 3: List with one uppercase letter
 def uppercaseList(word):
     result = []
-    
     # Go through each position in the word
     for i in range(len(word)):
         # Create new word with uppercase letter at position i
